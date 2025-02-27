@@ -17,11 +17,12 @@ namespace PROVA_IMC
 
         private void buttonTotal_Click(object sender, EventArgs e)
         {
-           /* if ((txtPeso.Text =="") && (txtAltura.Text == ""))
+            if ((txtPeso.Text =="") && (txtAltura.Text == ""))
             {
                 MessageBox.Show("OS CAMPOS ESTÃO VAZIO", "ATENÇÃO", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
-           }
-            */
+                return;
+            }
+            
                 var peso = float.Parse(txtPeso.Text);
                 var altura = float.Parse(txtAltura.Text);
                 var resulto = peso / (altura * 2);
