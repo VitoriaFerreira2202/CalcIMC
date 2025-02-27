@@ -352,7 +352,7 @@
             buttonVig.TabIndex = 3;
             buttonVig.Text = ",";
             buttonVig.UseVisualStyleBackColor = false;
-            buttonVig.Click += Numero;
+            buttonVig.Click += buttonVig_Click;
             // 
             // button04
             // 
